@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 00;
+    box-sizing: border-box;
+}
+ html{
+    scroll-behavior: smooth;
+ }
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../FONT/Poppins-Black.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: Poppins-Small;
+    src: url(../FONT/Poppins-Light.ttf) format(ttf);
+}
+body{
+    background-image: url(../IMG/Idea1.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
